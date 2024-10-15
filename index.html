@@ -1,0 +1,335 @@
+<!DOCTYPE html> 
+<!-- Merupakan deklarasi dokumen dalam format html-->
+<html> 
+<!--Taq pembuka html-->
+<head> 
+<!--kepala dari dokumen html yang sedang diprogram-->
+    <title>UTS</title> 
+        <!-- Ini adalah judul halaman yang ditampilkan di browser -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <!-- Link ini adalah dari pustaka ikon Font Awesome ini gunanya untuk bisa menggunakan ikon-ikon nantinya-->
+
+    <link rel="stylesheet" href="style.css">
+</head>
+</head>
+<body>
+<!--Taq yang berisi semua perintah dari program atau bagian badan dari dokumen-->
+    <nav>
+        <!-- Tag <nav> untuk mengelompokkan tautan navigasi, untuk menampilkan menu dari web kita -->
+        <div class="wrapper">
+            <!-- Disini kelas wrapper untuk menampung menu dan logo  -->
+             <!-- taq <div> disini berfungsi untuk mengelompokkan semua elemen didalamnya -->
+            <div class="logo"><a href="">cakefa</a></div>
+            <!-- Logo Website -->
+            <div class="menu">
+                <!-- Menu Naviasi -->
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#product">Product</a></li>
+                    <li><a href="#review">Review</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#contact" class="tbl-brown">SHOP NOW</a></li>
+                    <!-- tombol tautan untuk text Shop Now -->
+                </ul>
+                <!-- Taq <ul> untuk membuat daftar tanpa urutan.
+                Didalam taq <ul> terdapat taq <li> atau list item -->
+            </div>
+        </div>
+    </nav>
+    <div class="wrapper">
+        <!-- BAGIAN HOME -->
+        <section id="home">
+        <!-- taq section ini untuk mendefinisikan bagian dari halaman web dengan atribut ID yang bernama "home" -->
+            <img src="https://img.freepik.com/free-photo/unhealthy-sweet-one-pink-frosting_1203-5945.jpg?ga=GA1.2.1057457723.1728756579&semt=ais_hybrid"/>
+            <!-- Gambar yang ditampilkan di bagian Home -->
+            <div class="kolom">
+            <!-- taq div dengan kelas kolom -->
+            <p class="deskripsi">CUPCAKES</p>
+            <h2>Soft Bites, Big Smiles</h2>
+            <!-- Deskripsi singkat tentang produk -->           
+            <p>Manisnya kenikmatan seperti mimpi. Krim lembut yang penuh rasa 
+                indah. Di dalamnya tersembunyi kebahagiaan manis 
+                yang penuh, dalam setiap gigitan kecil.</p>
+            <p><a href="" class="tbl-choco">Learn More</a><p>
+            <!-- tombol tautan untuk text Learn More -->
+            </div>
+        </section>
+
+        <!-- BAGIAN ABOUT -->
+        <section id="about">
+        <!-- taq section ini untuk mendefinisikan bagian dari halaman web dengan atribut ID yang bernama "about" -->
+        <div class="kolom">
+        <!-- taq div dengan kelas kolom -->
+                <p class="deskripsi"> Why Choose Us </p> 
+                <h2> FLUFFY & CREAMY </h2>
+                <p>Cupcakes kami dibuat dengan bahan berkualitas tinggi dan penuh cinta. 
+                    Setiap rasa dirancang khusus untuk memberikan kenikmatan tak terlupakan. 
+                    Pilih favoritmu dan buat hari-harimu lebih manis!</p>
+                <p> <a href="" class="tbl-choco"> Learn More </a></p>
+            </div>
+            <img src="https://img.freepik.com/free-photo/high-angle-view-cupcakes-with-different-flavors_23-2147840254.jpg?ga=GA1.2.1057457723.1728756579&semt=ais_hybrid"/>
+                <!-- Gambar yang ditampilkan di bagian About -->
+        </section>
+
+         <!-- BAGIAN PRODUCT -->
+        <section id="product">
+        <!-- taq section ini untuk mendefinisikan bagian dari halaman web dengan atribut ID yang bernama "product" -->
+            <div class="tengah">
+                <div class="heading">
+                    <!-- 2 taq ini didefinisikan untuk membuat "tengah" sebagai pengaturan tata letak dan
+                    "heading" untuk menandai judulnya -->
+                    <p><h2>"LATEST PRODUCT"</h2></p>
+                     <!-- Judul dibagian Product -->
+                </div>
+                <div class="product-list">
+                    <!-- Daftar produk Cupcakes, disini saya beri 8 varian -->
+                    <div class="cupcakes-product">
+                        <img src="satu.png" alt="Varian Satu">
+                        <!-- Gambar nya harus sama file dengan file html nya -->
+                        <p>Varian Satu</p>
+                    </div>
+                    <div class="cupcakes-product">
+                        <img src="enam.png" alt="Varian Dua">
+                        <p>Varian Dua</p>
+                    </div>
+                    <div class="cupcakes-product">
+                        <img src="tiga.png" alt="Varian Tiga">
+                        <p>Varian Tiga</p>
+                    </div>
+                    <div class="cupcakes-product">
+                        <img src="empat.png" alt="Varian Empat">
+                        <p>Varian Empat</p>
+                    </div>
+                    <div class="cupcakes-product">
+                        <img src="lima.png" alt="Varian Lima">
+                        <p>Varian Lima</p>
+                    </div>
+                    <div class="cupcakes-product">
+                        <img src="tujuh.png" alt="Varian Enam">
+                        <p>Varian Enam</p>
+                    </div>
+                    <div class="cupcakes-product">
+                        <img src="sepuluh.png" alt="Varian Tujuh">
+                        <p>Varian Tujuh</p>
+                    </div>
+                    <div class="cupcakes-product">
+                        <img src="sembilan.png" alt="Varian Delapan">
+                        <p>Varian Delapan</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BAGIAN REVIEW -->
+        <section id="review">
+        <!-- taq section ini untuk mendefinisikan bagian dari halaman web dengan atribut ID yang bernama "review" -->
+            <div class="tengah">
+                <div class="heading">
+                    <h2><span>Customer's Review</span></h2>
+                    <!-- Judul di bagian Review -->
+                </div>
+
+                <div class="box-container">
+                <!-- Disini kelas box-container untuk kotak ulasannya -->
+                    <div class="box">
+                    <!-- Kontainer untuk setiap ulasan atau testimoni customer -->
+                        <div class="stars">
+                        <!-- kelas untuk menampilkan bintang rating -->
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <!-- Ikon bintang untuk rating -->
+                        </div>
+                        <p>"Saya sangat terkesan dengan kesegaran cupcakes ini. Rasanya seperti 
+                            baru dipanggang beberapa saat sebelum diantar. Pelayanananya juga luar biasa, adminnya ramah
+                            membuat kita senang. Pasti akan kembali untuk memesan lagi!"</p>
+                        <div class="user">
+                        <!-- kelas untuk informasi atau ulasan dari customer (review nya) -->
+                            <img src="cus-2.jpg" alt="Customer Image">
+                            <!-- Menampilkan gambar customer -->
+                            <div class="user-info">
+                            <!-- Kelas untuk nama dan deskripsi customer -->
+                                <h3>MinJi</h3>
+                                <!-- nama customer yang mereview-->
+                                <span>Happy Customer</span>
+                                <!-- deskripsi customer -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Bukan hanya rasanya yang luar biasa, tetapi tampilannya juga sangat cantik. 
+                            Perhatian terhadap detail dekorasinya sangat mengesankan. Rasanya terlalu sayang 
+                            untuk dimakan! Tapi begitu kami mencicipinya, kami tidak bisa berhenti"</p>
+                        <div class="user">
+                            <img src="cus-1.jpg" alt="Customer Image">
+                            <div class="user-info">
+                                <h3>Beomgyu</h3>
+                                <span>Happy Customer</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Saya sudah mencoba cupcakes dari banyak tempat, tetapi yang ini adalah yang terbaik! 
+                            Krimnya kaya rasa tanpa terlalu manis, dan tekstur kuenya lembut dan empuk. 
+                            Saya memesan kombinasi rasa cokelat dan vanila, dan keduanya sama-sama luar biasa!"</p>
+                        <div class="user">
+                            <img src="cus-3.jpg" alt="Customer Image">
+                            <div class="user-info">
+                                <h3>Younghoon</h3>
+                                <span>Happy Customer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BAGIAN CONTACT -->
+        <section id="contact">
+        <!-- taq section ini untuk mendefinisikan bagian dari halaman web dengan atribut ID yang bernama "contact" -->
+            <div class="tengah">
+                <div class="heading">
+                    <h2><span>"Contact Us"</span></h2>
+                    <!-- Judul di bagian Contact -->
+                </div>
+
+            <div class="row">
+            <!-- Kelas div "row" untuk mengelompokkan elemen di dalamnya -->
+                <form action="">
+                    <input type="text" placeholder="Masukkan Nama Anda" class="box">
+                     <!-- Input teks untuk masukkan nama dengan placeholder sebagai teks petunjuknya -->
+                    <input type="email" placeholder="Masukkan Email Anda" class="box">
+                    <!-- Input email untuk masukkan email dengan placeholder sebagai teks petunjuknya -->
+                    <input type="tel" placeholder="Masukkan Nomor Telefon Anda" class="box">
+                    <!-- Input 'tel' untuk masukkan nomor telefon dengan placeholder sebagai teks petunjuknya -->
+                    <textarea name="" class="box" placeholder="Isikan Pesan Anda" cols="30" rows="10"></textarea>
+                    <!-- taq textarea untuk area teks pada pesan, jika tidak pas maka kolom akan melanjutkan terus sesuai pesan yang diinputkan -->
+                    <input type="submit" value="send message" class="btn">
+                    <!-- Tombol kirim untuk mengirimkan pesan dengan label "Send Message" -->
+                </form>
+
+                <div class="image">
+                <!-- div dengan kelas "image" untuk gambar -->
+                    <img src="contact2.jpg" alt="Contact Us">
+                    <!-- Menampilkan gambar -->
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER SECTION  -->
+
+        <div class="container">
+        <!-- Kelas Kontainer utama untuk menampung kartu -->
+            <div class="card">
+            <!-- Kartu pertama dengan menampilkan informasi kontak -->
+                <div class="face face1">
+                <!-- Sisi pertama dari kartu -->
+                    <div class="content">
+                    <!-- Konten sisi pertama -->
+                        <div class="icon">
+                        <!-- kelas kontainer untuk ikonnya -->
+                            <i class="fa fa-user" aria-hidden="true"></i>
+                            <!-- Ikon untuk Contact Info -->
+                        </div>
+                        <h3>Contact Info</h3>
+                        <!-- Judul untuk Contact Info -->
+                    </div>
+                </div>
+                <div class="face face2">
+                <!-- Sisi kedua dari kartu -->
+                <div class="content">
+                <!-- Konten sisi kedua -->
+                        <h4>
+                            +62 345 678 910
+                            <!-- nomor telefon untuk contact info -->
+                            <br>nurfatimah@gmail.com</br>
+                            <!-- email untuk contact info -->
+                        </h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+            <!-- Kartu kedua dengan menampilkan informasi Lokasi -->
+                <div class="face face1">
+                    <div class="content">
+                        <div class="icon">
+                            <i class="fa fa-map-marker-alt" aria-hidden="true"></i>
+                            <!-- Ikon untuk Locations -->
+                        </div>
+                        <h3>Locations</h3>
+                        <!-- Judul untuk Locations -->
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <h4>
+                        Makassar
+                        <br>Sulawesi Selatan</br>
+                        <br>Indonesia</br>
+                        <!-- lokasi product -->
+                        </h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+            <!-- Kartu ketiga dengan menampilkan Media Sosial -->
+                <div class="face face1">
+                    <div class="content">
+                        <div class="icon">
+                            <i class="fa fa-share-alt" aria-hidden="true"></i>
+                            <!-- Ikon untuk Social Media -->
+                        </div>
+                        <h3>Social Media</h3>
+                        <!-- Judul untuk Sosial Media -->
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <h4>
+                            <a href="https://www.instagram.com/nrfatimah23_" target="_blank">Instagram Profile</a>
+                            <!-- Tautan ke profil Instagram -->
+                            <br><a href="http://www.youtube.com/@NurFatimahAs" target="_blank">YouTube Channel</a></br>
+                            <!-- Tautan ke saluran YouTube -->
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- COPYRIGHT -->
+
+        <div class="copyRight">
+        <!-- div dengan kelas "copyRight" untuk informasi hak cipta -->
+            <div class="wrapper">
+            <!-- div dengan kelas "wrapper" untuk mengatur tata letak elemen/content didalamnya -->
+                &copy; 2024.
+                <!-- Menampilkan simbol hak cipta diikuti tahun 2024 -->
+                <b>cakefa</b> All Rights Reserved.
+                <!-- Menampilkan text logo "cakefa" dengan format bold -->
+            </div>
+        </div>
+      
+    </div>
+</body>
+</html>
